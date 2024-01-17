@@ -118,7 +118,7 @@ test('ExpenseListFilters page - handling setDescendingOrder change test case ' ,
     expect(setDescendingOrder).toHaveBeenCalled();
 });
 
-test('ExpenseListFilters page - handling setStartDate change test case ' , () => {
+test('ExpenseListFilters page - handling setStartDate/setEndDate test case ' , () => {
     const startDate = moment().startOf('year');
     const endDate = moment().add(7, 'months');
     wrapper.find('DateRangePicker').prop('onDatesChange')( {startDate, endDate} );
