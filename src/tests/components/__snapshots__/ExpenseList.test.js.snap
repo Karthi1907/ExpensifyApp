@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseList should be rendered properly 1`] = `
+<div>
+  <h3>
+    Expense List
+  </h3>
+  <p>
+     Matching Expenses: 
+    4
+     
+  </p>
+  <Connect(ExpenseListItem)
+    amount={100}
+    comments="Nothing"
+    createdAt="20230701"
+    descr="EB Bill"
+    id={1}
+    key="1"
+  />
+  <Connect(ExpenseListItem)
+    amount={300}
+    comments="Nothing"
+    createdAt="20240101"
+    descr="Exp Two"
+    id={2}
+    key="2"
+  />
+  <Connect(ExpenseListItem)
+    amount={100}
+    comments="Nothing"
+    createdAt="20230101"
+    descr="Gas Bill"
+    id={3}
+    key="3"
+  />
+  <Connect(ExpenseListItem)
+    amount={50}
+    comments="Nothing"
+    createdAt="20230201"
+    descr="Exp Four"
+    id={4}
+    key="4"
+  />
+</div>
+`;
+
+exports[`ExpenseList should be rendered properly 2`] = `
+<div>
+  <h3>
+    Expense List
+  </h3>
+  <p>
+     Matching Expenses: 
+    0
+     
+  </p>
+  <p>
+      No expenses to show 
+  </p>
+</div>
+`;

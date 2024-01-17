@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem component properly 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/10"
+  >
+    <h3>
+        
+          
+    </h3>
+  </Link>
+  <p>
+      
+    123.45
+     - 
+    20281001
+     
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Remove me 
+  </button>
+</div>
+`;
