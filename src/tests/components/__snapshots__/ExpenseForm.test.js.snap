@@ -180,7 +180,7 @@ exports[`ExpenseForm should be rendered correctly - TC 3 - Form Submit - No decs
         anchorDirection="left"
         customCloseIcon={null}
         customInputIcon={null}
-        date={"2024-01-16T07:25:20.441Z"}
+        date={"2024-01-19T10:38:47.094Z"}
         daySize={39}
         disabled={false}
         displayFormat="DD-MM-YYYY"
@@ -312,7 +312,7 @@ exports[`ExpenseForm should be rendered correctly 1`] = `
         anchorDirection="left"
         customCloseIcon={null}
         customInputIcon={null}
-        date={"2024-01-16T07:25:20.436Z"}
+        date={"2024-01-19T10:38:47.025Z"}
         daySize={39}
         disabled={false}
         displayFormat="DD-MM-YYYY"
